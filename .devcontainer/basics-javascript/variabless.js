@@ -8,4 +8,9 @@ console.log(accountId);
 email = "moham@google.com"
 userName = "mohammadi"
 City ="dawha"
-console.table([accountId,email,userName,City])
+let accountstate;
+console.table([accountId,email,userName,City,accountstate])
+/*
+prefer not use to var because of issue in block scope and
+functional scope
+*/
