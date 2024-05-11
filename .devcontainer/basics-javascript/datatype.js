@@ -17,4 +17,5 @@ let age = 27
 
 console.log(typeof age);
 console.log(typeof null); //type ia object 
-console.log(typeof undefined); // type is undefined
+console.log(typeof undefined); // type is undefined 
+
