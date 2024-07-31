@@ -53,25 +53,41 @@ console.log(id,id2);
 // ******************************************************************
 // stack and heap memory stack(primitives) , heap (nonpremitive)
 
-let myname = "mohammadi"
-let lastname = myname;
-lastname = "begum"
+// let myname = "mohammadi"
+// let lastname = myname;
+// lastname = "begum"
 
-console.log(myname);
-console.log(lastname);
+// console.log(myname);
+// console.log(lastname);
 
-let user1 = {
-    name : "mohammadi begum",
-    email: "mohamm@gmail.com"
+// let user1 = {
+//     name : "mohammadi begum",
+//     email: "mohamm@gmail.com"
+// }
+// console.log(user1);
+// let user2 = user1;
+// user2.email = "mohammadi@google.com";
+
+// // console.log("user1 details------>"+user1);  nonpredectable output it just shows the datatype not the actual values
+// // console.log(user1 + "---->user1 details"); nonpredectable output it just shows the datatype not the actual values
+// // console.log(user1+user2);  nonpredectable output it just shows the datatype not the actual values
+// console.log(user2);
+
+
+
+let location1 = "gulbarga india"; // primitive data types are stored in stack and if we change the value of one variable it will not effect the previous value
+let location2 = location1;
+location2 = "doha qatar"
+
+console.log(location1 , location2); 
+
+let company1 = {
+    companyname : "google",
+    location: "india"
 }
-console.log(user1);
-let user2 = user1;
-user2.email = "mohammadi@google.com";
+//console.log(company1);
+let company2 = company1;
 
-// console.log("user1 details------>"+user1);  nonpredectable output it just shows the datatype not the actual values
-// console.log(user1 + "---->user1 details"); nonpredectable output it just shows the datatype not the actual values
-// console.log(user1+user2);  nonpredectable output it just shows the datatype not the actual values
-console.log(user2);
-
-
-
+company2.location = "usa";
+console.log(company1);
+console.log(company2);
