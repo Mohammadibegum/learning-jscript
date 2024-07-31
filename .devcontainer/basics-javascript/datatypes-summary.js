@@ -9,8 +9,11 @@
 
 // let temp=null;
 // let useremail;
-//  const id= Symbol('123');
-//  const id2= Symbol('123');
+ const id= Symbol('123');
+const id2= Symbol('123');
+
+console.log(id===id2)
+console.log(id,id2);
 
 //  BigInt = 867374578367656567n;
 
@@ -38,11 +41,11 @@
 // }
 
 
-// console.log(typeof useremail); // undefined
-// console.log(typeof temp); // object
-// console.log(typeof myfunction); // function
+// console.log(typeof useremail); //  let useremail;  return type is undefined
+// console.log(typeof temp); // temp=null; return type is object
+// console.log(typeof myfunction); //  function
 // console.log(typeof persondetails); // object
-// console.log(typeof fruites); // object
+// console.log(typeof fruites); // arrays return type is object
 // console.log(typeof id); // symbol 
 // console.log(typeof BigInt); //bigint
 
